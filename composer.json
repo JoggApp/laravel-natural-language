@@ -1,0 +1,53 @@
+{
+    "name": "joggapp/laravel-natural-language",
+    "description": "Laravel package for the Google Natural language API",
+    "keywords": [
+        "laravel",
+        "package",
+        "google",
+        "natural language",
+        "api"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harish Toshniwal",
+            "email": "harish@jogg.co"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JoggApp\\NaturalLanguage\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JoggApp\\NaturalLanguage\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "google/cloud-language": "^0.16.1",
+        "illuminate/support": "5.7.*"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench" : "~3.7.0",
+        "phpunit/phpunit": "^7.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JoggApp\\NaturalLanguage\\NaturalLanguageServiceProvider"
+            ],
+            "aliases":{
+                "NaturalLanguage": "JoggApp\\NaturalLanguage\\NaturalLanguageFacade"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
