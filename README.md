@@ -4,9 +4,9 @@
 [![Build Status](https://travis-ci.org/JoggApp/laravel-natural-language.svg?branch=master)](https://travis-ci.org/JoggApp/laravel-natural-language)
 [![Total Downloads](https://img.shields.io/packagist/dt/JoggApp/laravel-natural-language.svg?style=flat-rounded&colorB=brightgreen)](https://packagist.org/packages/JoggApp/laravel-natural-language)
 
-This package makes using the Google Natural API in your laravel app a breeze with minimum to no configuration, clean syntax and a consistent package API. All methods accept a string and return an array: [Docs](https://github.com/JoggApp/laravel-natural-language/#how-to-use)
+This package makes using the Google Natural API in your laravel app a breeze with minimum to no configuration, clean syntax and a consistent package API. All methods accept a string and return an array: [Docs below.](https://github.com/JoggApp/laravel-natural-language/#how-to-use)
 
-![nl](https://user-images.githubusercontent.com/11228182/46759910-25027180-ccee-11e8-96e6-af75939267e1.png)
+![natural](https://user-images.githubusercontent.com/11228182/46806140-765d4000-cd84-11e8-9d88-e71338d53376.png)
 
 ## Installation
 
@@ -86,11 +86,6 @@ NaturalLanguage::categories(string $text): array
 NaturalLanguage::annotateText(string $text, array $features = ['sentiment', 'syntax']): array
 ```
 
-## Credits
-
-- [Harish Toshniwal](https://github.com/introwit)
-- [All Contributors](../../contributors)
-
 ## Testing
 
 You can run the tests with:
@@ -106,6 +101,11 @@ Please see the [CHANGELOG](CHANGELOG.md) for more information about what has cha
 ## Security
 
 If you discover any security related issues, please email them to [harish@jogg.co](mailto:harish@jogg.co) instead of using the issue tracker.
+
+## Credits
+
+- [Harish Toshniwal](https://github.com/introwit)
+- [All Contributors](../../contributors)
 
 ## License
 
