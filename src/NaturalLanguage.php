@@ -99,17 +99,19 @@ class NaturalLanguage
         if (in_array($score, range(-1.0, -0.25, 0.01))) {
             if (in_array($magnitude, range(1.0, 100.0, 0.01))) {
                 return Verdict::VERY_NEGATIVE;
-            } else {
-                return Verdict::MOSTLY_NEGATIVE;
             }
-        } elseif (in_array($score, range(0.25, 1.0, 0.01))) {
+
+            return Verdict::MOSTLY_NEGATIVE;
+        }
+
+        if (in_array($score, range(0.25, 1.0, 0.01))) {
             if (in_array($magnitude, range(1.0, 100.0, 0.01))) {
                 return Verdict::VERY_POSITIVE;
-            } else {
-                return Verdict::MOSTLY_POSITIVE;
             }
-        } else {
-            return Verdict::MIXED_AND_NEUTRAL;
+
+            return Verdict::MOSTLY_POSITIVE;
         }
+
+        return Verdict::MIXED_AND_NEUTRAL;
     }
 }
