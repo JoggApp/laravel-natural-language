@@ -28,11 +28,11 @@
     "require": {
         "php": "^7.2",
         "google/cloud-language": "^0.16.1",
-        "illuminate/support": "5.7.*"
+        "illuminate/support": "5.8.*"
     },
     "require-dev": {
         "mockery/mockery": "^1.1",
-        "orchestra/testbench" : "~3.7.0",
+        "orchestra/testbench" : "~3.0",
         "phpunit/phpunit": "^7.3"
     },
     "extra": {

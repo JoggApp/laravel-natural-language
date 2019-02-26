@@ -17,7 +17,7 @@ class NaturalLanguageTest extends TestCase
 
     private $language;
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 
