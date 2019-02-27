@@ -26,7 +26,7 @@ class NaturalLanguageTest extends TestCase
         $this->language = new NaturalLanguage($this->languageClient);
     }
 
-    public function tearDown()
+    public function tearDown(): void
     {
         Mockery::close();
     }
@@ -41,7 +41,7 @@ class NaturalLanguageTest extends TestCase
 
         $response = $this->language->sentiment($this->testString);
 
-        $this->assertInternalType('array', $response);
+        $this->assertIsArray($response);
 
         $this->assertArrayHasKey('text', $response);
         $this->assertArrayHasKey('verdict', $response);
@@ -78,7 +78,7 @@ class NaturalLanguageTest extends TestCase
 
         $response = $this->language->entities($this->testString);
 
-        $this->assertInternalType('array', $response);
+        $this->assertIsArray($response);
 
         $this->assertArrayHasKey('text', $response);
         $this->assertArrayHasKey('entities', $response);
@@ -94,7 +94,7 @@ class NaturalLanguageTest extends TestCase
 
         $response = $this->language->entitySentiment($this->testString);
 
-        $this->assertInternalType('array', $response);
+        $this->assertIsArray($response);
 
         $this->assertArrayHasKey('text', $response);
         $this->assertArrayHasKey('entities', $response);
@@ -110,7 +110,7 @@ class NaturalLanguageTest extends TestCase
 
         $response = $this->language->syntax($this->testString);
 
-        $this->assertInternalType('array', $response);
+        $this->assertIsArray($response);
 
         $this->assertArrayHasKey('text', $response);
         $this->assertArrayHasKey('sentences', $response);
@@ -128,7 +128,7 @@ class NaturalLanguageTest extends TestCase
 
         $response = $this->language->categories($this->testString);
 
-        $this->assertInternalType('array', $response);
+        $this->assertIsArray($response);
 
         $this->assertArrayHasKey('text', $response);
         $this->assertArrayHasKey('categories', $response);
@@ -144,7 +144,7 @@ class NaturalLanguageTest extends TestCase
 
         $response = $this->language->annotateText($this->testString);
 
-        $this->assertInternalType('array', $response);
+        $this->assertIsArray($response);
 
         $this->assertArrayHasKey('text', $response);
         $this->assertArrayHasKey('sentences', $response);
