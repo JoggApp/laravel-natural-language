@@ -27,7 +27,7 @@
     },
     "require": {
         "php": "^7.2",
-        "google/cloud-language": "^0.16.1",
+        "google/cloud-language": "^0.20.0",
         "illuminate/support": "5.8.*"
     },
     "require-dev": {

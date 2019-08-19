@@ -1,5 +1,8 @@
 All the notable changes to the Laravel Natural Language package are documented in this file:
 
+## v2.1.0 (20-08-2019)
+- Update google-cloud-language sdk
+
 ## v2.0.1 (27-02-2019)
 - Remove phpunit deprications
 
