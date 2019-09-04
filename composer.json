@@ -28,12 +28,12 @@
     "require": {
         "php": "^7.2",
         "google/cloud-language": "^0.20.0",
-        "illuminate/support": "5.8.*"
+        "illuminate/support": "5.8.*|6.*"
     },
     "require-dev": {
         "mockery/mockery": "^1.1",
-        "orchestra/testbench" : "~3.0",
-        "phpunit/phpunit": "^7.3"
+        "orchestra/testbench" : "~4.0",
+        "phpunit/phpunit": "^8.0"
     },
     "extra": {
         "laravel": {
