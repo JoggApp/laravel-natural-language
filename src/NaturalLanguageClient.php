@@ -22,8 +22,7 @@ class NaturalLanguageClient
     public function sentiment(string $text)
     {
         return $this->language
-            ->analyzeSentiment($text)
-            ->sentiment();
+            ->analyzeSentiment($text);
     }
 
     public function entities(string $text)

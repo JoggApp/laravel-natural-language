@@ -13,17 +13,20 @@ class NaturalLanguage
 
     public function sentiment(string $text): array
     {
-        $sentiment = $this
+        $response = $this
             ->languageClient
             ->sentiment($text);
 
+        $sentiment = $response->sentiment();
+            
         $verdict = $this->prepareVerdict($sentiment['score'], $sentiment['magnitude']);
 
         return [
             'text' => $text,
             'verdict' => $verdict,
             'score' => $sentiment['score'],
-            'magnitude' => $sentiment['magnitude']
+            'magnitude' => $sentiment['magnitude'], 
+            'sentences' => $response->sentences();
         ];
     }
 
