@@ -26,7 +26,7 @@ class NaturalLanguage
             'verdict' => $verdict,
             'score' => $sentiment['score'],
             'magnitude' => $sentiment['magnitude'], 
-            'sentences' => $response->sentences();
+            'sentences' => $response->sentences(),
         ];
     }
 
