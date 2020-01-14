@@ -1,5 +1,8 @@
 All the notable changes to the Laravel Natural Language package are documented in this file:
 
+## v3.0.1 (14-01-2020)
+- Added Github Actions workflow
+
 ## v3.0.0 (04-09-2019)
 - Now supports Laravel v6.0
 - Support for Laravel v5.8 will be dropped in v3.1
