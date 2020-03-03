@@ -1,5 +1,9 @@
 All the notable changes to the Laravel Natural Language package are documented in this file:
 
+## v4.0.0 (03-03-2020)
+- Added Laravel v7.x support.
+- Dropped PHP v7.2 support, now PHP v7.3 is the minimum requirement.
+
 ## v3.0.1 (14-01-2020)
 - Added Github Actions workflow
 
