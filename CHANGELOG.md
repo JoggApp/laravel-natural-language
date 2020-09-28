@@ -1,5 +1,8 @@
 All the notable changes to the Laravel Natural Language package are documented in this file:
 
+## v6.0.0 (28-09-2020)
+- Updated the underlying google cloud language sdk
+
 ## v5.0.0 (10-09-2020)
 - Added Laravel v8.x support.
 - Dropped Laravel v6 & PHPUnit v8 support.
