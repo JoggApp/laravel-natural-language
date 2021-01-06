@@ -1,5 +1,8 @@
 All the notable changes to the Laravel Natural Language package are documented in this file:
 
+## v6.0.1 (06-01-2021)
+- Add PHP 8 support.
+
 ## v6.0.0 (28-09-2020)
 - Updated the underlying google cloud language sdk
 
