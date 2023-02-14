@@ -26,9 +26,9 @@
         }
     },
     "require": {
-        "php": "^8.0",
+        "php": "^8.1",
         "google/cloud-language": "^0.26.0",
-        "illuminate/support": "9.*"
+        "illuminate/support": "10.*"
     },
     "require-dev": {
         "mockery/mockery": "^1.1",
