@@ -27,20 +27,20 @@
     },
     "require": {
         "php": "^8.1",
-        "google/cloud-language": "^0.28.0",
-        "illuminate/support": "10.*"
+        "google/cloud-language": "^0.28.0|^0.32",
+        "illuminate/support": "10.*|^11.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.1",
-        "orchestra/testbench" : "8.*",
-        "phpunit/phpunit": "^9.0"
+        "orchestra/testbench": "8.*|^9.0",
+        "phpunit/phpunit": "^9.0|^10.5"
     },
     "extra": {
         "laravel": {
             "providers": [
                 "JoggApp\\NaturalLanguage\\NaturalLanguageServiceProvider"
             ],
-            "aliases":{
+            "aliases": {
                 "NaturalLanguage": "JoggApp\\NaturalLanguage\\NaturalLanguageFacade"
             }
         }
