@@ -1,7 +1,7 @@
 # Laravel package for the Google Natural language API
 
 [![Latest Version](https://img.shields.io/github/release/JoggApp/laravel-natural-language.svg?style=flat-rounded)](https://github.com/JoggApp/laravel-natural-language/releases)
-[![Build Status](https://travis-ci.org/JoggApp/laravel-natural-language.svg?branch=master)](https://travis-ci.org/JoggApp/laravel-natural-language)
+![](https://github.com/JoggApp/laravel-natural-language/workflows/Run%20Tests/badge.svg?branch=master)
 [![Total Downloads](https://img.shields.io/packagist/dt/JoggApp/laravel-natural-language.svg?style=flat-rounded&colorB=brightgreen)](https://packagist.org/packages/JoggApp/laravel-natural-language)
 
 This package makes using the Google Natural API in your laravel app a breeze with minimum to no configuration, clean syntax and a consistent package API. All methods accept a string and return an array: [Docs below.](https://github.com/JoggApp/laravel-natural-language/#how-to-use)

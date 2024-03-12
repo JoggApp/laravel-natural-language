@@ -1,5 +1,25 @@
 All the notable changes to the Laravel Natural Language package are documented in this file:
 
+## v7.0.0 (11-02-2022)
+- Added Laravel 9 support and dropped support for Laravel 7 and 8, and PHP 7.
+
+## v6.0.1 (06-01-2021)
+- Add PHP 8 support.
+
+## v6.0.0 (28-09-2020)
+- Updated the underlying google cloud language sdk
+
+## v5.0.0 (10-09-2020)
+- Added Laravel v8.x support.
+- Dropped Laravel v6 & PHPUnit v8 support.
+
+## v4.0.0 (03-03-2020)
+- Added Laravel v7.x support.
+- Dropped PHP v7.2 support, now PHP v7.3 is the minimum requirement.
+
+## v3.0.1 (14-01-2020)
+- Added Github Actions workflow
+
 ## v3.0.0 (04-09-2019)
 - Now supports Laravel v6.0
 - Support for Laravel v5.8 will be dropped in v3.1

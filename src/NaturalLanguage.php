@@ -86,6 +86,18 @@ class NaturalLanguage
             ->languageClient
             ->annotateText($text, $features);
 
+        if (is_null($annotation)) {
+            return [
+                'text' => $text,
+                'sentences' => null,
+                'tokens' => null,
+                'entities' => null,
+                'sentiment' => null,
+                'categories' => null,
+                'language' => null,
+            ];
+        }
+
         return [
             'text' => $text,
             'sentences' => method_exists($annotation, 'sentences') ? $annotation->sentences() : null,
