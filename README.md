@@ -1,3 +1,5 @@
+# THIS PACKAGE IS NO LONGER ACTIVELY MAINTAINED. USERS ARE ADVISED TO REPLACE IT WITH ALTERNATIVES.
+
 # Laravel package for the Google Natural language API
 
 [![Latest Version](https://img.shields.io/github/release/JoggApp/laravel-natural-language.svg?style=flat-rounded)](https://github.com/JoggApp/laravel-natural-language/releases)
